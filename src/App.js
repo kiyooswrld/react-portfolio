@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react'
 import Todos from "./components/Todos"
 import Particles from 'react-particles-js';
-
+import Icons from "./components/icons"
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
                 }
             }} />
             <Todos />
+            <Icons />
           </div>
           <div class="slide two"></div>
           <div class="slide three"></div>

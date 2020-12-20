@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oxygen:wght@700&display=swap');
+
+
 *,::after,::before{
   margin: 0;
   padding: 0;
@@ -5,13 +8,49 @@
 }
 
 .todos {
-  height: 100vh; /* Magic here */
+  height: 70vh; /* Magic here */
   display: flex;
+  flex-direction: column;
+}
+
+.todos h1 {
+  margin: 2px;
+  font-size: 7rem;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.todos h2 {
+  margin: -40px;
+  font-size: 10rem;
+  z-index: 1;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.todos p {
+  top: 20%;
+  position: relative;
+  color: #00FFE5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  display: inline-flex;
+  border-bottom: 1px solid #00FFE5;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.todos p:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+  transition: 0.2s all ease;
+
 }
 
 
-.todos h1 {
-  font-size: 8rem;
+
+.todos .blue {
+  color: #00FFE5;
 }
