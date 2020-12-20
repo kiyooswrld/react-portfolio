@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react'
 import Todos from "./components/Todos"
 import Particles from 'react-particles-js';
-
+import { Button } from '@material-ui/core';
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
                     }
                 }
             }} />
-            <Todos />
+            <Button spacing={0} alignItems="center" justify="center" color="primary"> Working </Button>
           </div>
           <div class="slide two"></div>
           <div class="slide three"></div>
