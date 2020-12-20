@@ -3,9 +3,9 @@ import "./Todos.css"
 
 function Todos() {
   return (
-    <div>
-     <h1>Hello, I am Kiyoo</h1>
-    </div>
+      <div class="todos">
+        <h1>Hello, I'm Kiyoo</h1>
+      </div>
   );
 }
 

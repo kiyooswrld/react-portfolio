@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 
-
-
-h1 {
-  font-size: 8rem;
-  color: #fff;
-  margin-top: -30%;
-  margin-left: 30%;
+.todos {
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+.todos h1 {
+  font-size: 8rem;
+}

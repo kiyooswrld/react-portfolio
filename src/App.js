@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react'
-// import Todos from "./components/Todos"
+import Todos from "./components/Todos"
 import Particles from 'react-particles-js';
-import { Button } from '@material-ui/core';
+
 
 
 function App() {
@@ -10,14 +10,14 @@ function App() {
       <div class="outer-wrapper">
         <div class="wrapper">
           <div class="slide one">
-          <Particles
+          <Particles id="particle-canvas"
               params={{
                 "particles": {
                     "number": {
-                        "value": 51
+                        "value": 100
                     },
                     "size": {
-                        "value": 3
+                        "value": 2.8
                     }
                 },
                 "interactivity": {
@@ -29,7 +29,7 @@ function App() {
                     }
                 }
             }} />
-            <Button spacing={0} alignItems="center" justify="center" color="primary"> Working </Button>
+            <Todos />
           </div>
           <div class="slide two"></div>
           <div class="slide three"></div>
