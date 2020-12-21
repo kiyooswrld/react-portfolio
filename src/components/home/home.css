@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .todos {
@@ -30,7 +31,8 @@
   font-family: 'Oxygen', sans-serif;
 }
 
-.todos p {
+.todos a {
+  text-decoration: none;
   top: 20%;
   position: relative;
   color: #00FFE5;
@@ -39,10 +41,11 @@
   display: inline-flex;
   border-bottom: 1px solid #00FFE5;
   cursor: pointer;
+  z-index: 10;
   transition: 0.3s all ease;
 }
 
-.todos p:hover {
+.todos a:hover {
   color: #fff !important;
   border-bottom: 1px solid #fff;
   transition: 0.2s all ease;
