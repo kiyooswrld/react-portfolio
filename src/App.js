@@ -1,12 +1,21 @@
-import './App.css';
 import React from 'react'
-import Todos from "./components/Todos"
-import Particles from 'react-particles-js';
-import Icons from "./components/icons"
+import './App.css';
 
+
+// extra frameworks OR Libraries => 
+import Particles from 'react-particles-js';
+
+
+
+// Components => 
+import Icons from "./components/icons/icons"
+import About from "./components/about/About"
+import Home from "./components/home/Home"
 
 function App() {
+
   return (
+    <>
       <div class="outer-wrapper">
         <div class="wrapper">
           <div class="slide one">
@@ -29,13 +38,15 @@ function App() {
                     }
                 }
             }} />
-            <Todos />
-            <Icons />
+            <Home />
+            <Icons  />
           </div>
-          <div class="slide two"></div>
-          <div class="slide three"></div>
+            <About />
+          <div class="slide three" ></div>
         </div>
       </div>
+
+    </>
   );
 }
 
