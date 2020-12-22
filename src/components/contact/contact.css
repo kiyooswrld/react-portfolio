@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oxygen:wght@700&display=swap');
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.contact {
+  height: 50vh; /* Magic here */
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h1 {
+  margin: 2px;
+  font-size: 7rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact h2 {
+  margin: -40px;
+  font-size: 10rem;
+  z-index: 1;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.contact a {
+  text-decoration: none;
+  top: 20%;
+  position: relative;
+  color: #00FFE5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  display: inline-flex;
+  border-bottom: 1px solid #00FFE5;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s all ease;
+}
+
+.contact a:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+  transition: 0.2s all ease;
+
+}
+
+
+
+.contact .blue {
+  color: #00FFE5;
+}
+
+
+.contact-form {
+  top: 10%;
+  height: 600px;
+  background: #fff;
+  width: 300px
+}
+
+.formName {
+  margin-bottom: 0px;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oxygen:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  max-width: 800px;
+  height: 600px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+p{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #486255;
+}
+
+
+#submitBtn {
+  color: #000;
+  border: 0px;
+}
+
+#submitBtn:hover {
+  background: #000;
+}
+
+
+
+
+.contact h2 {
+  margin: -40px;
+  font-size: 10rem;
+  z-index: 1;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.contact a {
+  text-decoration: none;
+  top: 20%;
+  position: relative;
+  color: #00FFE5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  display: inline-flex;
+  border-bottom: 1px solid #00FFE5;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s all ease;
+}
+
+.contact a:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+  transition: 0.2s all ease;
+
+}
+
+
+
+.contact .blue {
+  color: #00FFE5;
+}
+
+
+.contact-form {
+  top: 10%;
+  height: 600px;
+  background: #fff;
+  width: 300px
+}
+
+.formName {
+  margin-bottom: -10px;
+}

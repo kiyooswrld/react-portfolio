@@ -22,13 +22,12 @@ function Projects() {
     <MediaCard />
     <MediaCard1 />
     <MediaCard2 />
-    
     </div>
 
      <div className="prevnextProjects">  
         <a href="#about"><ArrowRightAltIcon style={{transform: "rotate(180deg)"}} 
         fontSize="large"/> Previous</a>
-        <a href="#about"> Contact <ArrowRightAltIcon fontSize="large"/></a>
+        <a href="#contact"> Contact <ArrowRightAltIcon fontSize="large"/></a>
 
     </div>
     </div>

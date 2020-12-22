@@ -20,7 +20,7 @@ h1 {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 300vw;
+  width: 400vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -34,7 +34,7 @@ h1 {
   background: #000;
 }
 .four {
-  background: #00dfdf;
+  background: #000;
 }
 
 .outer-wrapper {

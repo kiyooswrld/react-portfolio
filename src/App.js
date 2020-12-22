@@ -9,9 +9,10 @@ import Particles from 'react-particles-js';
 
 // Components => 
 import Icons from "./components/icons/icons"
-import About from "./components/about/About"
 import Home from "./components/home/Home"
+import About from "./components/about/About"
 import Projects from './components/projects/projects';
+import Contact from "./components/contact/contact";
 
 function App() {
 
@@ -44,6 +45,8 @@ function App() {
           </div>
           <div class="slide two"><About /></div>
           <div class="slide three" ><Projects /> </div>
+          <div class="slide four"> <Contact /></div>
+
         </div>
       </div>
 

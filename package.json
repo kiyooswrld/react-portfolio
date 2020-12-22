@@ -5,9 +5,11 @@
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
+    "@statickit/react": "^2.1.1",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-particles-js": "^3.4.1",
@@ -15,6 +17,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
+    "redux-form": "^8.3.7",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
