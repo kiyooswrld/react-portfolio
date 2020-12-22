@@ -41,7 +41,7 @@ function App() {
             <Home />
             <Icons  />
           </div>
-            <About />
+          <div class="slide two"><About /></div>
           <div class="slide three" ></div>
         </div>
       </div>

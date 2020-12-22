@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oxygen:wght@700&display=swap');
+
+
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#about {
+  height: 100vh; /* Magic here */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#whoami {
+  font-size: 8rem;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 30px;
+  padding-bottom: 50px;
+}
+
+#journey {
+  font-family: 'Montserrat', sans-serif;
+  color: #00FFE5 !important;
+  border-bottom: 1px solid #00FFE5;
+  padding-bottom: 30px;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+
+#aboutme {
+  font-size: 1.1rem;
+  line-height: 28px;
+  color: #fff;
+  padding: 0px 35%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.prevnext {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.prevnext a {
+  text-decoration: none;
+  top: 20%;
+  position: relative;
+  margin: 50px 700px;
+
+  color: #00FFE5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  display: inline-flex;
+  border-bottom: 1px solid #00FFE5;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s all ease;
+}
+
+.prevnext a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}

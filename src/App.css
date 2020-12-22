@@ -28,7 +28,7 @@ h1 {
   background: #000;
 }
 .two {
-  background: #a3f3d3;
+  background: #000;
 }
 .three {
   background: #0bbaa0;
@@ -58,7 +58,8 @@ h1 {
 div {
   flex: 1;
   justify-content: center;
-  align-items: center
+  align-items: center;
+
 }
 
 #particle-canvas {
