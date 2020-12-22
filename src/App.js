@@ -11,6 +11,7 @@ import Particles from 'react-particles-js';
 import Icons from "./components/icons/icons"
 import About from "./components/about/About"
 import Home from "./components/home/Home"
+import Projects from './components/projects/projects';
 
 function App() {
 
@@ -42,7 +43,7 @@ function App() {
             <Icons  />
           </div>
           <div class="slide two"><About /></div>
-          <div class="slide three" ></div>
+          <div class="slide three" ><Projects /> </div>
         </div>
       </div>
 

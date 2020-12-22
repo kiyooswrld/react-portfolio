@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oxygen:wght@700&display=swap');
+
+
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#projects {
+  height: 100vh; /* Magic here */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#projectsText {
+  font-size: 8rem;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 30px;
+  padding-bottom: 50px;
+}
+
+
+
+.prevnextProjects {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prevnextProjects a {
+  text-decoration: none;
+  top: 20%;
+  position: relative;
+  margin: 50px 700px;
+
+  color: #00FFE5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  display: inline-flex;
+  border-bottom: 1px solid #00FFE5;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s all ease;
+}
+
+.prevnextProjects a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.projectCards {
+  display: flex;
+  
+  flex-direction: row !important;
+}
